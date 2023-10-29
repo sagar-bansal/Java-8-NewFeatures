@@ -1,0 +1,36 @@
+Notes:
+
+Lambda Expressions: Lambda expressions allow you to express instances of single-method interfaces (functional interfaces) using a more concise syntax. They are often used in functional programming and for simplifying code.
+
+Functional Interfaces: Functional interfaces are interfaces that have exactly one abstract method. Java 8 introduced a new annotation @FunctionalInterface to indicate that an interface should be treated as a functional interface.
+
+Streams: Java 8 introduced the Stream API, which allows you to process sequences of data in a functional style. Streams provide powerful operations such as map, filter, reduce, and collect for processing collections of data.
+
+Method References: Method references allow you to refer to a method without invoking it. They are often used in conjunction with lambda expressions to make code more concise.
+
+Default Methods: Default methods were introduced to allow the addition of new methods to interfaces without breaking the classes that already use them. They provide a way to add methods with default implementations in interfaces.
+
+Static Methods in Interfaces: Java 8 allows the inclusion of static methods in interfaces. These methods can be called on the interface itself and do not require an implementing class.
+
+Functional Interfaces in java.util.function package: Java 8 introduced a set of functional interfaces in the java.util.function package, such as Function, Predicate, Consumer, and Supplier, which are commonly used in functional programming and lambda expressions.
+
+Date and Time API: The new Date and Time API in Java 8 provides a comprehensive way to handle date and time. It includes classes like LocalDate, LocalTime, LocalDateTime, and ZonedDateTime.
+
+Optional: The Optional class was introduced to deal with null values more effectively and reduce the risk of NullPointerException by wrapping the value in an Optional container.
+
+New Collectors: Java 8 introduced several new collectors for the Stream API, including toList, toSet, toMap, and joining, making it easier to collect and process data from streams.
+
+Nashorn JavaScript Engine: Nashorn is a faster and more efficient JavaScript engine for the JVM, allowing you to run JavaScript code from Java applications.
+
+Parallel Streams: Java 8 introduced the concept of parallel streams, which can take advantage of multi-core processors to process data concurrently, potentially improving performance.
+
+CompletableFuture: The CompletableFuture class allows asynchronous, non-blocking programming and simplifies concurrent and parallel execution of tasks.
+
+New File I/O API: The java.nio.file package introduced in Java 7 received further enhancements in Java 8, providing a more flexible and efficient file I/O system.
+
+We will focus mostly on. 
+
+-- Lambda Expressions
+-- Functional Interfaces (Asked in interview)
+-- Streams( Stream API)
+-- Default Methods in interfaces 
