@@ -1,0 +1,50 @@
+Java 1.2 collection API
+Java 1.5 Generics
+Java 1.8 Lambda Expressions
+
+https://www.youtube.com/watch?v=4HC_WyBSDGA&ab_channel=Telusko
+
+Functional Interface & Lambda
+An interface which has only one method
+
+You can't create an object of interface
+
+Every class in java extends object class
+Thats why if you use any method which is object class then no error
+
+Lambda expression can only be used with functional interface
+After Lambda show a bit of functional effects 
+
+public int sum(int a, int b){
+  return (a+b);
+}
+
+for converting to lambda remove return type name and modifier
+
+(int a,int b)->{
+  return (a+b);
+}
+
+if body of lambda exp contain only one expression then curly braces are optional
+java compiler also infers the type by its own so you can remove data type because it can get the 
+type information from the functional interface to whose var the lambda is assigned
+we can also remove the return type
+
+(a,b)->return (a+b);
+
+public int getLength(String str){
+  return str.length();
+}
+
+(str)-> str.length();
+
+We can use @FunctionalInterface
+
+Runnable,Comparable,Callable
+
+Anonymous class= A class ewithout any name
+
+
+
+
+
